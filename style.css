@@ -1,0 +1,417 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+
+
+body, #slider, .wrap, .slide-content{
+
+    
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+
+ 
+    
+    }
+    
+    .wrap{position: relative}
+    
+    .slide{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    }
+    
+    .slide1{background-image: url('images/can1.jpg')}
+    .slide2{background-image: url('images/jam1.jpg')}
+    .slide3{background-image: url('images/usa1.jpg')}
+    .slide4{background-image: url('images/gb1.jpg')}
+    
+    .slide-content{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       
+    }
+
+    .slide-content span{
+        font-size: 5rem;
+        color: #fff;
+    }
+
+    .arrow{
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        margin-top: 70px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+    }
+
+    #arrow-left{
+        border-width: 30px 40px 30px 0px;
+        border-color: transparent #fff transparent transparent;
+        left: 0px;
+        margin-left: 30px;
+    }
+
+    #arrow-right{
+        border-width: 30px 0px 30px 40px;
+        border-color: transparent transparent transparent #fff;
+        right: 0px;
+        margin-right: 30px;
+    }
+
+    .footer1{
+        padding-left: 5px;
+        padding-bottom: 5px;
+    }
+
+
+    .footer {
+        
+        display: flex;    
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+              
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: rgb(63, 59, 59);
+        background-color: #fff;
+        
+        height: auto;
+        width: auto;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        z-index: 3 ;
+
+    }
+
+
+    .footer2 {
+        
+        display: flex;
+       
+        flex-direction: column;
+
+        justify-content: center;
+         
+                
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 10px;
+          color: rgb(63, 59, 59);
+          background-color: #fff;
+          text-align: center;
+          height: auto;
+          width: 960px;
+          padding-top: 15px;
+          padding-bottom: 5px;
+          padding-left: 10px;
+          z-index: 3 ;
+  
+      }
+  
+    .searchGoogle {
+
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+
+
+    } 
+    
+    .today{
+
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+
+    }
+
+
+
+
+
+    a:link {
+        text-align: left;
+        color: #999;
+        text-decoration: none;
+                
+    }
+    a:visited {
+        text-decoration: none;
+        color: #ff8800;
+    }
+    a:hover {
+        text-decoration: none;
+        color: #0c00ff;
+    }
+    a:active {
+        text-decoration: none;
+        color: #ff8800;
+    }
+
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-style: italic;
+        color: #ff8800;
+        
+    }
+    
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-style: italic;
+        color: #ff8800;
+        text-align: left;
+    }
+
+    h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-style: italic;
+        color: #289747;
+        text-align: left;
+    }
+
+    h4 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        font-style: italic;
+        color: #b7eb73f6;
+        text-align: center;
+    }
+
+   
+    
+    .clear {
+        clear: both;
+    }
+
+    .logo {
+
+
+        
+        background-size: cover; 
+        background-color: #F03;
+        
+        height: 16vh;
+        
+        background-image: url('images/motgbanner.jpg');
+        background-repeat: no-repeat; 
+         
+        
+    }
+
+    .rlbody{
+
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+
+
+
+    }
+
+    .leftbody {
+        
+        background-color: #FFF;
+        
+       flex: 1;
+        
+        margin:0 1vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+
+    .rightbody {
+        justify-content:flex-end;
+        background-color: #FFF;
+        
+        
+        
+        margin: 0 1vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px; 
+       box-sizing: border-box;
+    }
+
+
+.addflight{
+
+margin:0 1vw;
+
+}
+
+
+
+
+
+    
+    .location {
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+        
+.location1 {
+    display:flex;
+    justify-content: center;
+    flex-basis: 20%;
+    flex: 2;
+}
+
+.location2 {
+    display:flex;
+    justify-content: center;
+    flex-basis: 20%;
+    flex: 2;
+}
+
+.alert{
+
+text-align: center;
+padding: 10px;
+background: #79c879;
+color: #fff;
+margin-bottom: 10px;
+display:none;
+
+}
+
+
+
+ @media(min-width:600px){
+
+    .location{
+
+        display: flex;
+
+    }
+
+    .footer{
+
+        display: flex;
+
+    }
+
+    .searchGoogle {
+
+        display: flex;
+
+    }          
+
+    .today{
+
+        display: flex;
+
+    }
+
+    .rlbody{
+
+        display: flex;
+
+    }
+
+
+
+
+ }   
+ 
+ /*
+ form, label { margin: 0; padding: 0; }
+ body{ margin: 20px; }
+ h1 { font-size: 1.5em; margin: 10px; }*/
+ 
+ /****** Style Star Rating Widget *****/ 
+ 
+ /*.rating { 
+   border: none;
+   float: left;
+ }
+ 
+ .rating > input { display: none; } 
+ .rating > label:before { 
+   margin: 5px;
+   font-size: 1.25em;
+   font-family: FontAwesome;
+   display: inline-block;
+   content: "\f005";
+ }
+ 
+ .rating > .half:before { 
+   content: "\f089";
+   position: absolute;
+ }
+ 
+ .rating > label { 
+   color: #ddd; 
+  float: right; 
+ }*/
+ 
+ /***** CSS Magic to Highlight Stars on Hover *****/
+ 
+ /*.rating > input:checked ~ label,*/ /* show gold star when clicked */
+ /*.rating:not(:checked) > label:hover,*/ /* hover current star */
+ /*.rating:not(:checked) > label:hover ~ label { color: #FFD700;  }*/ /* hover previous stars in list */
+ 
+ /*.rating > input:checked + label:hover,*//* hover current star when changing rating */
+ /*.rating > input:checked ~ label:hover,*/
+ /*.rating > label:hover ~ input:checked ~ label,*/ /* lighten current selection */
+/* .rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+ 
+ 
+
+
+ span{
+     background-color: #dbe6ec;
+ }*/
+ 
+ 
+ 
+ .stars-outer{
+
+    position: relative;
+    display: inline-block;
+ }
+ 
+ .stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+width: 0;
+
+ }
+
+ .stars-outer::before {
+content: "\f005 \f005 \f005 \f005 \f005";
+font-family:  'Font Awesome 5 Free';
+font-weight: 900;
+color: #ccc;
+ }
+
+ .stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family:  'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #f8ce0b;
+     }
